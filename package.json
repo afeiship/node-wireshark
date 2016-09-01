@@ -1,0 +1,15 @@
+{
+  "name": "node-wireshark",
+  "version": "0.0.0",
+  "description": "Mini network wireshark tools based on node-http-proxy.",
+  "homepage": "https://github.com/afeiship/node-wireshark",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "http-proxy": "^1.14.0"
+  }
+}
