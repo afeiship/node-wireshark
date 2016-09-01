@@ -11,7 +11,7 @@ Mini network wireshark tools based on node-http-proxy.
 ```js
 {
   "target":{
-    "hostname":"www.dom.com",
+    "hostname":"www.dev.com",
     "port":"80"
   },
   "proxy":{
