@@ -7,7 +7,7 @@ Mini network wireshark tools based on node-http-proxy.
 + nginx app.zaijiadd.com
 
 
-##options:
+##config:
 ```js
 {
   "target":{
@@ -19,4 +19,16 @@ Mini network wireshark tools based on node-http-proxy.
     "port":"8888"
   }
 }
+```
+
+##useage:
+```js
+var nodeWireshark = require('node-wireshark');
+var config = require('./proxy.json');
+nodeWireshark(config);
+```
+## enjoy it:
+```bash
+> node app.js
+listening on port 8888
 ```
