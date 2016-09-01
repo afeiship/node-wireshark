@@ -4,7 +4,9 @@
 
   var http = require('http'),
     httpProxy = require('http-proxy'),
-    proxy = httpProxy.createProxyServer({});
+    proxy = httpProxy.createProxyServer({
+      secure:false
+    });
 
 
   module.exports = function(inOptions) {
