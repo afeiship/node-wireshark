@@ -29,6 +29,6 @@ nodeWireshark(config);
 ```
 ## enjoy it:
 ```bash
-> node app.js
+node app.js
 listening on port 8888
 ```
