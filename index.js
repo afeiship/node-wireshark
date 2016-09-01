@@ -2,7 +2,6 @@
 
   'use strict';
 
-  var inOptions = require('./proxy_inOptions.json');
   var http = require('http'),
     httpProxy = require('http-proxy');
   var proxy = httpProxy.createProxyServer({});
