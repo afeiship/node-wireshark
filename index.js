@@ -3,8 +3,8 @@
   'use strict';
 
   var http = require('http'),
-    httpProxy = require('http-proxy');
-  var proxy = httpProxy.createProxyServer({});
+    httpProxy = require('http-proxy'),
+    proxy = httpProxy.createProxyServer({});
 
 
   module.exports = function(inOptions) {
